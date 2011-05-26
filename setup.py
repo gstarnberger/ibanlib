@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name = "ibanlib",
@@ -11,7 +11,7 @@ setup(
     test_suite = "ibanlib.test.test_suite",
     package_data = {
         # If any package contains *.txt or *.rst files, include them:
-        '': ['*.txt'],
+        '': ['*.txt', '*.cfg'],
     }
 )
 
